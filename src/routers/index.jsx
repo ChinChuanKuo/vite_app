@@ -11,7 +11,7 @@ const Routers = () => {
         </Routes>
       </BrowserRouter>
     </>
-  );
-};
+  )
+}
 
 export default Routers
