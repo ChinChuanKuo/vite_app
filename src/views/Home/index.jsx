@@ -3,7 +3,7 @@ import reactLogo from '../../assets/react.svg'
 import viteLogo from '/vite.svg'
 import './index.css'
 
-function Home() {
+const Home = () => {
   const [count, setCount] = useState(0)
   const countClick = (event) => setCount((count) => count + 1)
 
